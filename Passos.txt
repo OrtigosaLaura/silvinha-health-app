@@ -1,0 +1,11 @@
+Criar o Projeto
+npx create-expo-app silvinhaHealthApp
+
+Adicionar o pacore para execução na WEB
+npx expo install react-dom react-native-web @expo/webpack-config
+
+Executar o Projeto
+npx expo start
+Configurando git
+git config --global user.name OrtigosaLaura
+git config --global user.email lauraortigosa378@gmail.com
