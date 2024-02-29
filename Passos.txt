@@ -19,3 +19,5 @@ npm i
 
 Executar o Projeto
 npx expo start --localhost --android
+
+src\components\Title\index.js
