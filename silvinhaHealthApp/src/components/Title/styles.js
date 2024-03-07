@@ -1,17 +1,17 @@
-import { StyleSheet} from "react-native";
+import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-    boxTitle: {
-        alignItems: 'center',
-		justifyContent: 'center',
-		padding: 10,
-        
+  boxTitle: 
+    { 
+      alignItems: 'center',
+      justifyContent: 'center',
+      padding: 10,
     },
-    textTitle: {
-      color: '#FF0043',
-	  fontSize: 28,
-	  fontWeight: 'bold'
+  textTitle: {
+    color: '#FF0043',
+    fontSize: 28,
+    fontWeight: 'bold'
     },
 })
 
-export default styles;
+ export default styles;
