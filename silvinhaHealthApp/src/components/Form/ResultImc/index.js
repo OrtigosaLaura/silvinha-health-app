@@ -5,16 +5,16 @@ export default function ResultImc(props) {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>
-        {props.menssageResult}
+        {props.messageResult}
         </Text>
       <Text style={styles.textImc}>
-        {props.ResultImc}
+        {props.resultImc}
         </Text>
     </View>
   )
 }
 const styles = StyleSheet.create({
-  conteiner: {
+  container: {
     flex: 1,
     Width: '100%',
     alignItems: 'center',
@@ -25,15 +25,11 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: '#FF0043',
     fontWeight: 'bold'
-
-
   },
   textImc: {
     fontSize: 48,
     color: '#FF0043',
     fontWeight: 'bold'
-
-
   },
 
 })
